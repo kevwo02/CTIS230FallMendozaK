@@ -1,9 +1,9 @@
 body {  
-    color:blue;  
+    color:palevioletred;  
 }
 
 h2 {  
-    color: plum;  
+    color: lightsalmon;  
 }
 
 h1{
@@ -11,5 +11,9 @@ h1{
 }
 
 h3{
-    color: chocolate;
+    color: red;
+
+    background-color: aquamarine;
+
+    width: fit-content;
 }
