@@ -38,18 +38,20 @@ a{
     text-decoration: none;
 
 }
+:link{
+    color: black;
+}a
+:active{
+    color:gold;
+}
+
+
 a:visited{
     color: lime;
 
 
 }
-:link{
-    color: black;
-}
 
-a:active{
-    color:gold;
-}
 
 
 a:hover{
