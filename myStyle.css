@@ -33,3 +33,27 @@ h3{
 
     width: fit-content;
 }
+
+a{
+    text-decoration: none;
+
+}
+a:visited{
+    color: lime;
+
+
+}
+:link{
+    color: black;
+}
+
+a:active{
+    color:gold;
+}
+
+
+a:hover{
+    color: firebrick;
+
+}
+
