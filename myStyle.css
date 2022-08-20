@@ -1,13 +1,21 @@
 body {  
     color:palevioletred;  
+
+    background-color: oldlace;
+
+    width:fit-content;
 }
 
 h2 {  
     color: lightsalmon;  
+    background-color: chocolate;
+    width: fit-content;
 }
 
 h1{
-    color: darkgoldenrod
+    color: darkgoldenrod;
+    background-color: black;
+
 }
 
 h3{
