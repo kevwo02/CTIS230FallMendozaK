@@ -4,6 +4,14 @@ body {
     background-color: oldlace;
 
     width:fit-content;
+
+    font-size: 1.5em;
+
+    font-weight: bolder;
+
+    font-style: italic;
+
+    font-family: Cambria, Georgia, "Book Antiqua"  serif;
 }
 
 h2 {  
