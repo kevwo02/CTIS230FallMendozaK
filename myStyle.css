@@ -46,7 +46,11 @@ a {
     text-decoration: none;
 
 }
+a:visited {
+    color: lime;
 
+
+}
 a:link {
     color: black;
 }
@@ -56,11 +60,7 @@ a:active {
 }
 
 
-a:visited {
-    color: lime;
 
-
-}
 
 
 
