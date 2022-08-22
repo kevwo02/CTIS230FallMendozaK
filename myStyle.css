@@ -62,15 +62,16 @@ a:link {
    
 }
 
-a:active {
-    color: gold;
-}
 
 
 a:hover {
     color: firebrick;
     background-color: wheat;
 
+}
+
+a:active {
+    color: violet;
 }
 
 div.cb{
