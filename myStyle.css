@@ -12,6 +12,11 @@ body {
     font-style: italic;
 
     font-family: Cambria, Georgia, "Book Antiqua", sans-serif;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+
 }
 
 p{
@@ -19,7 +24,7 @@ p{
 }
 
 ol{
-    color: cornflowerblue
+    color: cornflowerblue;
 }
 
 h2 {
