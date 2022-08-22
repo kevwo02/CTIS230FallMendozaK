@@ -44,15 +44,16 @@ h3 {
 
 a {
     text-decoration: none;
-
 }
 a:visited {
     color: lime;
+    
 
 
 }
 a:link {
     color: black;
+    background-color: cadetblue;
 }
 
 a:active {
@@ -60,12 +61,9 @@ a:active {
 }
 
 
-
-
-
-
 a:hover {
     color: firebrick;
+    background-color: wheat;
 
 }
 
