@@ -83,3 +83,31 @@ div.cb{
     
 }
 
+h1,h3 {
+
+    color: slateblue;
+}
+
+h3 strong{
+
+    color:chartreuse;
+    background-color: black;
+}
+
+p.yesfact {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: salmon;
+}
+
+img#img1100{
+    width: 50%;
+}
+
+img#img1111{
+    width: 300;
+}
+
+img#img0011{
+    width: 90%;
+    height: 40%;
+}
