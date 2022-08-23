@@ -1,3 +1,5 @@
+
+
 body {
     color: palevioletred;
 
@@ -5,7 +7,7 @@ body {
 
     width: fit-content;
 
-    font-size: 1.5em;
+    font-size: 2.5vw; /*to help with font sizes*/
 
     font-weight: bolder;
 
@@ -16,6 +18,7 @@ body {
     margin-left: 15%; /*change if you dont like*/
     margin-right: 15%;
 
+ 
 
 }
 
@@ -26,6 +29,15 @@ p{
 
 ol{
     color: cornflowerblue;
+    margin-right: 8%;
+    margin-left: 0.2%;
+}
+
+li{
+    margin-left: 3px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+
 }
 
 h2 {
@@ -76,7 +88,8 @@ a:active {
 }
 
 div.cb{
-    color: black;
+    color: white;
+    background-color: black;
     width:fit-content;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:xx-large;
@@ -111,7 +124,12 @@ img#img1111{
 img#img0011{
     width: 90%;
     height: 40%;
+    float: left;
     
+}
+
+a#link{
+    background-color: oldlace;
 }
 
 ol li {
