@@ -7,7 +7,7 @@ body {
 
     width: fit-content;
 
-    font-size: 2.5vw; /*to help with font sizes*/
+    font-size: 2vw; /*to help with font sizes*/
 
     font-weight: bolder;
 
@@ -21,6 +21,36 @@ body {
  
 
 }
+
+div.flexible {  
+    display:flex;  
+}
+
+div.content{
+width: 80;
+height: 100;
+margin-left: 5%;
+margin-right: 2%;
+font-size: medium;
+height: fit-content;
+margin-bottom: 5%;
+
+}
+
+div.footer{
+    display: flex;
+}
+
+div.foot{
+    width: 80;
+height: 100;
+margin-left: 5%;
+margin-right: 2%;
+margin-top: 8%;
+font-size: medium;
+}
+
+
 
 p{
     color: gray;
@@ -49,6 +79,7 @@ h2 {
 h1 {
     color: darkgoldenrod;
     background-color: black;
+    font-size: 50pt;
     
 }
 
@@ -92,7 +123,7 @@ div.cb{
     background-color: black;
     width:fit-content;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:xx-large;
+    font-size:x-large;
     
     
 }
@@ -122,9 +153,11 @@ img#img1111{
 }
 
 img#img0011{
-    width: 90%;
+    width: 60%;
     height: 40%;
-    float: left;
+    float: right;
+    margin: 1em;
+    margin-left: 1em;
     
 }
 
@@ -135,3 +168,4 @@ a#link{
 ol li {
     margin-bottom: 0.5em;
 }
+
