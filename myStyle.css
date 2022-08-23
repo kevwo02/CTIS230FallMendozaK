@@ -21,6 +21,7 @@ body {
 
 p{
     color: gray;
+    
 }
 
 ol{
@@ -29,7 +30,7 @@ ol{
 
 h2 {
     color: lightsalmon;
-    background-color: forestgreen;
+ 
     width: fit-content;
 }
 
@@ -42,7 +43,7 @@ h1 {
 h3 {
     color: red;
 
-    background-color: aquamarine;
+    
 
     width: fit-content;
 }
@@ -75,7 +76,7 @@ a:active {
 }
 
 div.cb{
-    color: powderblue;
+    color: black;
     width:fit-content;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:xx-large;
@@ -85,10 +86,10 @@ div.cb{
 
 h1,h3 {
 
-    color: slateblue;
+    color: hotpink;
 }
 
-h3 strong{
+h3 em,strong{
 
     color:chartreuse;
     background-color: black;
@@ -110,4 +111,9 @@ img#img1111{
 img#img0011{
     width: 90%;
     height: 40%;
+    
+}
+
+ol li {
+    margin-bottom: 0.5em;
 }
