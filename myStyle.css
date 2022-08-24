@@ -29,11 +29,13 @@ div.flexible {
 div.content{
 width: 80;
 height: 100;
-margin-left: 5%;
-margin-right: 2%;
-font-size: medium;
+margin-left: 4%;
+margin-right: 3%;
+font-size: large;
 height: fit-content;
 margin-bottom: 5%;
+
+
 
 }
 
@@ -42,12 +44,13 @@ div.footer{
 }
 
 div.foot{
-    width: 80;
+    width: 150;
 height: 100;
-margin-left: 5%;
+margin-left: 16%;
 margin-right: 2%;
 margin-top: 8%;
-font-size: medium;
+font-size: 1.5vw;
+
 }
 
 
