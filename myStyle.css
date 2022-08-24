@@ -48,7 +48,7 @@ div.content a{
     text-decoration: wavy;
 }
 
-div.footer{
+div#footer{
     display: flex;
 }
 
