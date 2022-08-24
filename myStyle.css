@@ -27,8 +27,8 @@ div.flexible {
 }
 
 div.content{
-width: 80;
-height: 100;
+width: 80px;
+height: 100px;
 margin-left: 4%;
 margin-right: 3%;
 font-size: large;
@@ -44,8 +44,8 @@ div.footer{
 }
 
 div.foot{
-    width: 150;
-height: 100;
+    width: 150px;
+height: 100px;
 margin-left: 16%;
 margin-right: 2%;
 margin-top: 8%;
@@ -152,7 +152,7 @@ img#img1100{
 }
 
 img#img1111{
-    width: 300;
+    width: 30px;
 }
 
 img#img0011{
