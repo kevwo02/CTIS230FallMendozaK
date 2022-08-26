@@ -50,6 +50,7 @@ div.content a{
 
 div#footer{
     display: flex;
+    /* border: 2px dotted black; */
 }
 
 div.foot{
@@ -182,6 +183,12 @@ img#img0011{
     margin: 1em;
     margin-left: 1em;
     
+}
+
+img#img0099{
+    width: 40%;
+    float: right;
+    /* margin-bottom: 2em; */
 }
 
 a#link{
