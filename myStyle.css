@@ -48,6 +48,10 @@ div.content a{
     text-decoration: wavy;
 }
 
+div.content a:hover{
+    background-color: mediumslateblue;
+}
+
 div#footer{
     display: flex;
     /* border: 2px dotted black; */
