@@ -202,3 +202,14 @@ a#link{
 ol li {
     margin-bottom: 0.5em;
 }
+
+@media (max-width : 750px){
+    body{
+      margin-left: 2%;
+      margin-right:2%;
+    }
+  }
+
+  .content a {
+    width: 50%;
+  }
