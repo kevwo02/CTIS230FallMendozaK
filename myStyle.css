@@ -213,3 +213,20 @@ ol li {
   .content a {
     width: 50%;
   }
+
+  /* change background color for landscape */
+
+  @media screen and (orientation: landscape){
+    body{
+        background-color: chartreuse;
+    }
+  }
+    
+  
+
+  @media (mid-width:389) and (max-width: 391)
+ and (min-height:843) and (max-height:845)  {
+body{
+    display: none;
+}
+  }
