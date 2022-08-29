@@ -30,10 +30,3 @@ body{
 
 /* as long as the width of th eviewport is less 750px, impement
 whatever rules are present in this media query */
- @media (max-width : 750px){
-  body{
-    margin-left: 2%;
-    margin-right:2%;
-  }
-
- }
