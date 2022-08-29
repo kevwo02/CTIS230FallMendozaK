@@ -1,6 +1,6 @@
 body{
-    margin-left:20%;
-    margin-right:20%;
+    margin-left:10%;
+    margin-right:10%;
     background-color:lavender;
     
   }
@@ -21,6 +21,19 @@ body{
    height: 20px;
    border: 3px solid black;
    display: none;
-
-
   }
+
+  /* media queries for the responsive desgin */
+  /* As the brower to identify the properties of the media that
+ the content is being displayed on and change the CSS rules accordingly  */
+
+
+/* as long as the width of th eviewport is less 750px, impement
+whatever rules are present in this media query */
+ @media (max-width : 750px){
+  body{
+    margin-left: 2%;
+    margin-right:2%;
+  }
+
+ }
