@@ -50,5 +50,15 @@ function onChange() {
 }
 
 
+textentry2 = document.getElementById("myinput2");  
+textentry2.addEventListener("change", onChange2);
+
+function onChange2() {  
+    newtext= myinput.value;  
+    otheritem2.innerHTML = newtext;  
+}
+
+
+
 
 
