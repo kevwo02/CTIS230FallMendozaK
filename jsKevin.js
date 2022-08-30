@@ -49,14 +49,20 @@ function onChange() {
     otheritem.innerHTML = newtext;  
 }
 
+ 
+//adding another button to the 3rd item on the list
+//it changes the color brown and makes the background of the li black
 
-textentry2 = document.getElementById("myinput2");  
-textentry2.addEventListener("change", onChange2);
+thebutton3 = document.getElementById("button3");  
+otheritem3 = document.getElementById("test3");
 
-function onChange2() {  
-    newtext= myinput.value;  
-    otheritem2.innerHTML = newtext;  
+thebutton3.addEventListener("click",onButtonClick3)
+
+function onButtonClick3(){
+    otheritem3.style.color = "brown";
+    otheritem3.style.backgroundColor="black";
 }
+
 
 
 
