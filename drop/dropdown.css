@@ -1,6 +1,9 @@
 body{
+    background-color: blue;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25em;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
 
 div#navbar{
@@ -24,3 +27,4 @@ div.nav div.dropdownitem a{
 div.nav:hover div.dropdownitem a{
     display: block;
 }
+
