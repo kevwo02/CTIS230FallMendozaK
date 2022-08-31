@@ -218,14 +218,14 @@ ol li {
 
   /* change background color for landscape */
 
-  @media screen and (orientation: landscape){
+  /* @media screen and (orientation: landscape){
     body{
         background-color: chartreuse;
     }
     h1{
         background-color: white;
-    }
-  }
+    } */
+  /* } */
     
   
 
