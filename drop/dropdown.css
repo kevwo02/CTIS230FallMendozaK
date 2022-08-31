@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
+
+div#navbar{
+
+    display: flex;
+    width: 100%;
+    border: 2px dotted rosybrown;
+    position:fixed;
+    top: 0;
+}
+
+div.nav{
+    width: 30%;
+    text-align:center;
+}
+
+div.nav div.dropdownitem a{
+    display: none;
+}
+
+div.nav:hover div.dropdownitem a{
+    display: block;
+}
