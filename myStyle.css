@@ -239,11 +239,14 @@ ol li {
     a:link{
         background-color: greenyellow;
         text-decoration:underline;
-     
     }
-    a:visited{
-        color: blueviolet;
+
+    a:hover{
+        color: crimson;
+        background-color: black;
     }
+
+    
   }
 
   img.theme{
