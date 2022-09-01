@@ -228,7 +228,26 @@ ol li {
         background-color: white;
     }
   }
-    
+
+  img#theme{
+    width: 20%;
+    height: 10%;
+    float:inline-start;
+    margin: 1em;
+    margin-left: 1em;
+  }
+
+  div#largeview {
+position: fixed;
+    top: 10px;
+    left: 500;
+}
+
+div.dontshow {
+    display:none;
+}
+
+
   
 /* 
   @media (mid-width:389) and (max-width: 391)

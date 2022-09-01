@@ -68,3 +68,27 @@ function onButtonClick3(){
 
 
 
+mybigimage = document.getElementById("largeview");
+hero = document.getElementById("hero");
+
+
+hero.addEventListener("click", makeBigImage);
+mybigimage.addEventListener("click", hideBigImage);
+
+
+
+
+function makeBigImage() {
+    mybigimage.innerHTML = '';
+    bigimage = document.createElement("img");
+    bigimage.src ="images/bigthemis.jpg";
+    mybigimage.appendChild(bigimage);
+    mybigimage.classList.remove("dontshow");
+}
+
+function hideBigImage(){
+    mybigimage.classList.add("dontshow");
+}
+
+
+
