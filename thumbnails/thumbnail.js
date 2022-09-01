@@ -12,20 +12,7 @@ mybigimage.addEventListener("click", hideBigImage);
 
 document.addEventListener("keyup", hideBigImage);
 
-staticimage = document.getElementById("staticview");
-gifimage = document.getElementById("gifview")
 
-staticimage.addEventListener("mouseover", showGIF);
-gifimage.addEventListener("mouseout", hideGIF);
-
-function showGIF(){
-    gifview.classList.remove("dontshow");
-    staticview.classList.add("dontshow");
-}
-
-function hideGUF(){
-    gifview.classList.add("dontshow");
-}
 
 
 function makeBigImage() {
@@ -44,3 +31,17 @@ function hideBigImage(){
     mybigimage.classList.add("dontshow");
 }
 
+staticimage = document.getElementById("staticview");
+gifimage = document.getElementById("gifview")
+
+staticimage.addEventListener("mouseover", showGIF);
+gifimage.addEventListener("mouseout", hideGIF);
+
+function showGIF(){
+    gifview.classList.remove("dontshow");
+    staticview.classList.add("dontshow");
+}
+
+function hideGIF(){
+    gifview.classList.add("dontshow");
+}

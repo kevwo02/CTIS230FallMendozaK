@@ -65,25 +65,25 @@ function onButtonClick3(){
 
 
 
-mybigimage = document.getElementById("bigview");
-hero = document.getElementById("hero");
+// mybigimages = document.getElementById("bigview");
+// hero = document.getElementById("hero");
 
 
-hero.addEventListener("click", makeBigImage);
-mybigimage.addEventListener("click", hideBigImage);
+// hero.addEventListener("click", makesBigImage);
+// mybigimages.addEventListener("click", hideBigImage);
 
 
-function makeBigImage() {
-    mybigimage.innerHTML = '';
-    bigimage = document.createElement("img");
-    bigimage.src ="images/bigthemis.jpg";
-    mybigimage.appendChild(bigimage);
-    mybigimage.classList.remove("dontshow");
-}
+// function makesBigImage() {
+//     mybigimages.innerHTML = '';
+//     bigimage = document.createElement("img");
+//     bigimage.src ="images/bigthemis.jpg";
+//     mybigimages.appendChild(bigimage);
+//     mybigimages.classList.remove("dontshow");
+// }
 
-function hideBigImage(){
-    mybigimage.classList.add("dontshow");
-}
+// function hideBigImage(){
+//     mybigimages.classList.add("dontshow");
+// }
 
 
 

@@ -2,6 +2,7 @@
 
 body {
     color: palevioletred;
+    text-align: center;
 
     background-color: oldlace;
 
@@ -235,7 +236,7 @@ ol li {
     }
   }
 
-  img#theme{
+  img.theme{
     width: 20%;
     height: 10%;
     float:inline-start;
@@ -246,12 +247,17 @@ ol li {
   div#bigview {
 position: fixed;
     top: 10px;
-    left: 500;
-}
+    left: 50px;
+
+  }
 
 div.dontshow {
     display:none;
+   
+   
 }
+
+
 
 
 
