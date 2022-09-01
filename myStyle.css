@@ -11,7 +11,7 @@ body {
 
     font-weight: bolder;
 
-    font-style: italic;
+    font-style:normal;
 
     font-family: Cambria, Georgia, "Book Antiqua", sans-serif;
 
@@ -216,22 +216,24 @@ ol li {
     width: 50%;
   }
 
-  /* change background color for landscape */
+  /* change background color for landscape 
+  This changes the font style and weight  */
 
-  /* @media screen and (orientation: landscape){
-    body{
-        background-color: chartreuse;
+  @media screen and (orientation: landscape){
+   body{
+    font-weight: lighter;
+   font-style: italic;
     }
     h1{
         background-color: white;
-    } */
-  /* } */
+    }
+  }
     
   
-
+/* 
   @media (mid-width:389) and (max-width: 391)
  and (min-height:843) and (max-height:845)  {
 body{
     display: none;
 }
-  }
+  } */
