@@ -237,6 +237,7 @@ ol li {
     a:link{
         background-color: greenyellow;
         text-decoration:underline;
+        color: blueviolet;
     }
   }
 
