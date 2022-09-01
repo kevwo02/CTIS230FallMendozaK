@@ -212,7 +212,7 @@ ol li {
     margin-bottom: 0.5em;
 }
 
-@media (max-width : 750px){
+@media (max-width : 500px){
     body{
       margin-left: 2%;
       margin-right:2%;
