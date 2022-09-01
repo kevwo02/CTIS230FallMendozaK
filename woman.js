@@ -12,6 +12,8 @@ function makesBigImage() {
     bigimage.src ="images/bigthemis.jpg";
     mybigimages.appendChild(bigimage);
     mybigimages.classList.remove("dontshow");
+    bigimage.style.width="50%"
+    bigimage.style.height="30%"
 
 }
 
