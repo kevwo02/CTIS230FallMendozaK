@@ -56,15 +56,17 @@ div.content a:hover{
 
 div#footer{
     display: flex;
+    text-align: center;
     /* border: 2px dotted black; */
 }
 
 div.foot{
-    width: 70%;
-    font-size: medium;
-    padding-top: 4em;
+    width: 100%;
+    font-size: small;
+    padding-left: 5em;
+    padding-top: 5em;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
