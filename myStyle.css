@@ -234,6 +234,10 @@ ol li {
     h1{
         background-color: white;
     }
+    a:link{
+        background-color: greenyellow;
+        text-decoration:underline;
+    }
   }
 
   img.theme{
