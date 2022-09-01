@@ -7,4 +7,12 @@ div#largeview {
 div.dontshow {
     display:none;
 }
+/* 
+div#card2:hover{
+    content: url(images/2_of_clubs_small.png);
+} */
 
+img.dog{
+    width: 8%;
+    height: 8%;
+}

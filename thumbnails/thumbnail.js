@@ -12,6 +12,21 @@ mybigimage.addEventListener("click", hideBigImage);
 
 document.addEventListener("keyup", hideBigImage);
 
+staticimage = document.getElementById("staticview");
+gifimage = document.getElementById("gifview")
+
+staticimage.addEventListener("mouseover", showGIF);
+gifimage.addEventListener("mouseout", hideGIF);
+
+function showGIF(){
+    gifview.classList.remove("dontshow");
+    staticview.classList.add("dontshow");
+}
+
+function hideGUF(){
+    gifview.classList.add("dontshow");
+}
+
 
 function makeBigImage() {
     // first be sure that the largeview element has no leftover HTML

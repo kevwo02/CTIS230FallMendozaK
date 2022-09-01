@@ -65,17 +65,12 @@ function onButtonClick3(){
 
 
 
-
-
-
-mybigimage = document.getElementById("largeview");
+mybigimage = document.getElementById("bigview");
 hero = document.getElementById("hero");
 
 
 hero.addEventListener("click", makeBigImage);
 mybigimage.addEventListener("click", hideBigImage);
-
-
 
 
 function makeBigImage() {

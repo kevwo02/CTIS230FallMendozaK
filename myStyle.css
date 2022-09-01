@@ -25,8 +25,9 @@ body {
 div.flexible {  
     display:flex;  
     /* border: 2px dotted purple; */
-    justify-content: space-around;
-    padding-top: 2em;
+    justify-content:space-between;
+    text-align: center;
+    padding-top: 2px;
     background-color: blanchedalmond;
 }
 
@@ -110,6 +111,7 @@ h1 {
     color: darkgoldenrod;
     background-color: black;
     font-size: 50pt;
+    width: 100%;
     
 }
 
@@ -122,7 +124,10 @@ h3 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;   
+    transition-property: border-bottom color;
+    transition-duration: 0.3s;
+    border-bottom: 2px solid transparent;
 }
 a:visited {
     color: lime;
@@ -133,7 +138,7 @@ a:visited {
 a:link {
     color: black;
     background-color: cadetblue;
-   
+
 }
 
 
@@ -141,6 +146,7 @@ a:link {
 a:hover {
     color: firebrick;
     background-color: wheat;
+    border-bottom: 1px solid royalblue;
 
 }
 
@@ -237,7 +243,7 @@ ol li {
     margin-left: 1em;
   }
 
-  div#largeview {
+  div#bigview {
 position: fixed;
     top: 10px;
     left: 500;
@@ -246,6 +252,8 @@ position: fixed;
 div.dontshow {
     display:none;
 }
+
+
 
 
   
