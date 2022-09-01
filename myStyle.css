@@ -237,6 +237,9 @@ ol li {
     a:link{
         background-color: greenyellow;
         text-decoration:underline;
+     
+    }
+    a:visited{
         color: blueviolet;
     }
   }
