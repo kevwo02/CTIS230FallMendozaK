@@ -9,11 +9,7 @@ card1.addEventListener("click", makeBigImage);
 mybigimage.addEventListener("click", hideBigImage);
 
 //have the document hide the big image whenever the user presses any key
-
 document.addEventListener("keyup", hideBigImage);
-
-
-
 
 function makeBigImage() {
     // first be sure that the largeview element has no leftover HTML
